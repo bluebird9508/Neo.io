@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: against;
+    src: url(css/againstregular.ttf);
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+position: absolute; 
+left: 1px;  
+
+height: 80px;
+width: 100%;
+
+}
+
+header li{
+    
+    display: inline;
+    margin-right:11vw
+}
+header a{
+    font-family: against;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+h1{  
+    display: inline;
+    margin-top:3vw 
+}
